@@ -380,8 +380,8 @@ td.visible-print,th.visible-print{display:table-cell!important}
 @font-face{font-family: 'Merriweather', serif;}
 @font-face{font-family:font-family: 'Merriweather', serif;}
 *{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;-webkit-margin-before:0;-webkit-margin-after:0;-webkit-padding-start:0}
-h1,h2{font-family: 'Montserrat', sans-serif;}
-h3,h4,h5{font-family: 'Montserrat', sans-serif;}
+h1,h2{font-family: 'Montserrat', sans-serif; text-transform: uppercase;}
+h3,h4,h5{font-family: 'Montserrat', sans-serif; text-transform: uppercase;}
 h1 a,h2 a{ ;color:inherit}
 @media screen and (max-width:767px){h1,h2{font-size:30px}
 }
@@ -508,7 +508,7 @@ nav#main .nav-inner .nav-items-wrap{width:60%;padding-right:10px}
 nav#main .nav-inner .nav-items-wrap .search{width:100%}
 }
 nav#main ul li{list-style-type:none;margin-left:0;padding-left:0}
-nav#main li{font-family: 'Montserrat', sans-serif;font-size:1.5789473684em;transform:translateX(-2rem);opacity:0;transition:opacity .6s cubic-bezier(.785,.135,.15,.86),transform .6s cubic-bezier(.785,.135,.15,.86)}
+nav#main li{font-family: 'Montserrat', sans-serif; text-transform: uppercase;font-size:1.5789473684em;transform:translateX(-2rem);opacity:0;transition:opacity .6s cubic-bezier(.785,.135,.15,.86),transform .6s cubic-bezier(.785,.135,.15,.86)}
 nav#main li a{text-decoration:none;color:inherit;border-bottom:1px solid transparent;transition:border .3s cubic-bezier(.785,.135,.15,.86)}
 nav#main li a:hover{color:#e84a5f;}
 nav#main li.active{transform:translateX(0);opacity:1}
@@ -630,7 +630,7 @@ nav#main .search input:-ms-input-placeholder{color:inherit;font-size:.78em}
 .contact-person .image .image-inner,body.base-page .employee-card .image .image-inner,body.career .career-section .employee-card .image .image-inner,body.course-single .employee-card .image .image-inner{position:relative}
 .contact-person .text,body.base-page .employee-card .text,body.career .career-section .employee-card .text,body.course-single .employee-card .text{padding-left:25px;width:50%;display:-ms-flexbox;display:flex;-ms-flex-direction:column;flex-direction:column}
 .contact-person .text .name,body.base-page .employee-card .text .name,body.career .career-section .employee-card .text .name,body.course-single .employee-card .text .name{font-family: 'Merriweather', serif;}
-.employee-card .work-title,body.home h1 a{font-family: 'Montserrat', sans-serif;}
+.employee-card .work-title,body.home h1 a{font-family: 'Montserrat', sans-serif; text-transform: uppercase;}
 .contact-person .text .work-title,body.base-page .employee-card .text .work-title,body.career .career-section .employee-card .text .work-title,body.course-single .employee-card .text .work-title{font-family: 'Merriweather', serif; ;font-weight:300;text-transform:capitalize}
 .contact-person .contact-info,body.base-page .employee-card .contact-info,body.career .career-section .employee-card .contact-info,body.course-single .employee-card .contact-info{width:100%;-ms-flex:1;flex:1;-ms-flex-pack:end;justify-content:flex-end;display:-ms-flexbox;display:flex;-ms-flex-direction:column;flex-direction:column}
 .contact-person .contact-info .vcard-link,body.base-page .employee-card .contact-info .vcard-link,body.career .career-section .employee-card .contact-info .vcard-link,body.course-single .employee-card .contact-info .vcard-link{margin-top:1em}
@@ -682,6 +682,9 @@ body.home .search-wrap input:-ms-input-placeholder{color:#fff}
 body.home .search-wrap button{background:url(/content/themes/cascio/assets//img/icons/search-white.svg) no-repeat;background-size:contain;border:none;height:16px;width:16px;position:absolute;right:15px;transform:translateY(-50%);top:50%}
 .contact-map,.reference-list .case-patterns{background-size:cover;background-position:center center}
 [data-browser=ie] header .logo-button svg{width:117px}
+.nav-is-visible .logo-button h2{
+	color:#2a363b;
+}
 [data-browser=ie] .full-height{height:calc(100vh - 117px)}
 .contact-map{position:absolute;height:100vh;width:60%;right:0;top:-117px;background-image:url(/content/themes/cascio/assets//img/map.png)}
 .contact-map a{position:absolute;display:block;width:100%;height:100%;left:0;top:0}
