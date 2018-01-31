@@ -64,6 +64,9 @@ thead{display:table-header-group}
 img{max-width:100%!important}
 h2,h3,p{orphans:3;widows:3}
 h2,h3{page-break-after:avoid}
+.top-of-page{
+	margin-top:400px;
+}
 .navbar{display:none}
 .btn>.caret,.dropup>.btn>.caret{border-top-color:#000!important}
 .label{border:1px solid #000}
@@ -537,6 +540,7 @@ nav#main .search{width:300px;position:relative;background-color:#99b898;padding:
 	nav#main .search{width:20vw}
 	nav#main{
 	background-image: url("desks.png");
+	background-position: top right;
 	}
 }
 nav#main .search:after{content:' ';background-image:url(/content/themes/cascio/assets//img/icons/search-black.svg);background-size:contain;width:16px;height:16px;display:block;position:absolute;right:15px;top:50%;transform:translateY(-50%)}
@@ -654,12 +658,12 @@ nav#main .search input:-ms-input-placeholder{color:inherit;font-size:.78em}
 .expertise-list li a,body.home h1 a{text-decoration:none;transition:border .3s cubic-bezier(.785,.135,.15,.86)}
 .employee-image-wrap img.lazyloaded+.blur,.employee-image-wrap:hover img{opacity:0}
 .employee-image-wrap svg{z-index:1}
-body.home{background-color:#2a363b}
+body.home{background-color:#2a363b;background-image:url("board-room.jpg"); background-position: top right; background-repeat: no-repeat;}
 body.home h1 a:hover{color:#e8495f}
 body.home .page-content{padding:0}
 body.home .page-content [data-patterns]{position:absolute;height:100vh;width:40vw;right:-42px;top:-117px;z-index:10;-ms-flex-direction:row;flex-direction:row}
 body.home .page-content [data-patterns] [data-pattern]{min-width:14.2857%!important}
-body.home .page-content .employee-pattern{position:absolute;height:100vh;width:40vw;right:0;top:-126px;z-index:10;background-image:url("board-room.jpg");}
+body.home .page-content .employee-pattern{position:absolute;height:100vh;width:40vw;right:0;top:-126px;z-index:10;}
 @media screen and (max-width:767px){body.home .page-content [data-patterns]{display:none}
 body.home .page-content .employee-pattern{width:calc(100% + 60px);position:relative;margin-left:-30px;top:0}
 body.home .page-content .employee-pattern svg{left:0;right:0}
@@ -684,6 +688,9 @@ body.home .search-wrap button{background:url(/content/themes/cascio/assets//img/
 [data-browser=ie] header .logo-button svg{width:117px}
 .nav-is-visible .logo-button h2{
 	color:#2a363b;
+}
+.logo-button h2:hover{
+	color:#e84a5f;
 }
 [data-browser=ie] .full-height{height:calc(100vh - 117px)}
 .contact-map{position:absolute;height:100vh;width:60%;right:0;top:-117px;background-image:url(/content/themes/cascio/assets//img/map.png)}
