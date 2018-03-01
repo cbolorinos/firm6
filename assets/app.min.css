@@ -446,14 +446,14 @@ input:active,input:focus{outline:0}
 [data-reveal]{transform:translate3d(0,100px,0);opacity:0;transition:all .7s ease}
 [data-reveal=revealed]{transform:translate3d(0,0,0)!important;opacity:1}
 .employee-card .name a:active,.employee-card .name a:hover{color:inherit}
-.cascio-logo{height:35px;margin-left:5em;margin-top:0;position:relative;display:inline-block}
+.cascio-logo{height:33px;margin-left:5em;margin-top:0;position:relative;display:inline-block}
 @media screen and (min-width:769px){.cascio-logo{margin-left:0}
 }
 .cascio-logo .logo-color{transition:fill .15s ease}
 @media screen and (max-width:767px){[data-reveal]{transform:translate3d(0,50px,0)}
 .cascio-logo{height:24px;margin-left:30px;margin-top:8px}
 }
-#search-wrapper .search-header .closer,.menu-toggle{padding:15px;display:block;position:fixed;color:#000}
+#search-wrapper .search-header .closer,.menu-toggle{padding:15px;display:block;position:fixed;color:#000;margin-top: -3px;}
 #search-wrapper .search-header .closer .hamburger,.menu-toggle .hamburger{width:30px;height:18px;position:relative;top:-7px}
 #search-wrapper .search-header .closer .hamburger .inner,#search-wrapper .search-header .closer .hamburger .inner:after,#search-wrapper .search-header .closer .hamburger .inner:before,.menu-toggle .hamburger .inner,.menu-toggle .hamburger .inner:after,.menu-toggle .hamburger .inner:before{width:100%;height:2px;border-radius:4px;position:absolute;background-color:currentColor;transition-property:transform;transition-duration:.15s;transition-timing-function:ease}
 #search-wrapper .search-header .closer .hamburger .inner,.menu-toggle .hamburger .inner{top:1px}
