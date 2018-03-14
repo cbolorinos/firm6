@@ -469,7 +469,7 @@ body header nav#breadcrumbs{display:inline-block;position:absolute;top:50%;trans
 }
 body header nav#breadcrumbs a{font-size:.78em;color:inherit;display:inline-block;margin-left:20px;margin-right:20px;position:relative;text-decoration:underline}
 body header nav#breadcrumbs a:before{content:'›';position:absolute;left:-23px}
-body header .logo-button{z-index:25;text-decoration:none!important;background-image: url("logo.png");}
+body header .logo-button{z-index:25;text-decoration:none!important;}
 @media screen and (max-width:767px){body header .logo-button{position:fixed}
 }
 body header .lang-selector{display:none;position:relative;text-decoration:none!important}
