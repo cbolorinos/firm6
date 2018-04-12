@@ -380,16 +380,16 @@ td.visible-print,th.visible-print{display:table-cell!important}
 @font-face{font-family:RalewayItalic;src:url(/content/themes/cascio/assets//fonts/Canela-LightItalic-Web.eot);src:url(/content/themes/cascio/assets//fonts/Canela-LightItalic-Web.eot?#iefix) format("embedded-opentype"),url(/content/themes/cascio/assets//fonts/Canela-LightItalic-Web.woff2) format("woff2"),url(/content/themes/cascio/assets//fonts/Canela-LightItalic-Web.woff) format("woff");font-weight:300;font-style:italic;font-stretch:normal}
 @font-face{font-family:Raleway;src:url(/content/themes/cascio/assets//fonts/Canela-Light-Web.eot);src:url(/content/themes/cascio/assets//fonts/Canela-Light-Web.eot?#iefix) format("embedded-opentype"),url(/content/themes/cascio/assets//fonts/Canela-Light-Web.woff2) format("woff2"),url(/content/themes/cascio/assets//fonts/Canela-Light-Web.woff) format("woff");font-weight:300;font-style:normal;font-stretch:normal}
 *{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;-webkit-margin-before:0;-webkit-margin-after:0;-webkit-padding-start:0}
-h1,h2{font-family:Raleway,Times New Roman,serif;font-size:60px;font-weight:300;line-height:1.25em}
+h1,h2{font-family:Raleway,Times New Roman,serif;font-size:2.2105263158em;font-weight:300;line-height:1.25em}
 h3,h4,h5{font-family:GTAmericaMedium;font-weight:400}
 h1 a,h2 a{font-style:italic;color:inherit}
-a:hover,h1 a:hover,h2 a:hover{color:#f2b041;}
+a:hover,h1 a:hover,h2 a:hover{color:#cf6f39;}
 @media screen and (max-width:767px){h1,h2{font-size:30px}
 }
 h3,h4{font-size:1em}
 h5{font-size:.78947em}
-body{font-size:16px;font-family:Open Sans;overflow-y:scroll}
-@media screen and (min-width:1500px){body{font-size:16px;}
+body{font-size:19px;font-family:Open Sans;overflow-y:scroll}
+@media screen and (min-width:1500px){body{font-size:1.25vw}
 }
 p{line-height:1.47em;margin-bottom:1.5em;max-width:35em}
 a{text-decoration:none;color:currentColor}
@@ -495,7 +495,7 @@ body.nav-is-open header .cascio-logo .logo-color{fill:#0F0F0F}
 @media screen and (max-width:767px){body.nav-is-open header{color:#0F0F0F}
 body.nav-is-open header:after{transform:translateX(100%)}
 }
-nav#main{background-color:#caffcc;position:fixed;height:100%;width:70%;top:0;z-index:10;opacity:0;transition:transform .6s cubic-bezier(.785,.135,.15,.86);line-height:1.375;overflow:hidden;transform:translateX(-100%);padding-left:3vw}
+nav#main{background-color:#a3b07a;position:fixed;height:100%;width:70%;top:0;z-index:10;opacity:0;transition:transform .6s cubic-bezier(.785,.135,.15,.86);line-height:1.375;overflow:hidden;transform:translateX(-100%);padding-left:3vw}
 nav#main.loaded{opacity:1}
 @media screen and (max-width:767px){nav#main{padding-left:25px;width:100%}
 }
@@ -585,15 +585,13 @@ nav#main .search input:-ms-input-placeholder{color:inherit;font-size:.78em}
 #search-wrapper section.cases a,#search-wrapper section.expertise a{font-size:1.2631578947em;font-family:Raleway,Times New Roman,serif;display:block}
 #search-wrapper section.cases a:hover,#search-wrapper section.expertise a:hover{color:inherit}
 .dark-template,[data-bg=purple],[data-bg=maroon],[data-bg=black],body.employees .employee-filter{color:#fff}
-.logo-button .cascio-logo .logo-color{fill:#f2b041;}
-.logo-button:hover .cascio-logo .logo-color{fill:#f2b041;}
+.logo-button .cascio-logo .logo-color{fill:#fff;}
+.logo-button:hover .cascio-logo .logo-color{fill:#cf6f39;}
 #search-wrapper .search-header .dark-template header .closer,#search-wrapper .search-header [data-bg=purple] header .closer,#search-wrapper .search-header [data-bg=maroon] header .closer,#search-wrapper .search-header [data-bg=black] header .closer,#search-wrapper .search-header body.employees .employee-filter header .closer,.dark-template header #search-wrapper .search-header .closer,.dark-template header .menu-toggle,[data-bg=purple] header #search-wrapper .search-header .closer,[data-bg=purple] header .menu-toggle,[data-bg=maroon] header #search-wrapper .search-header .closer,[data-bg=maroon] header .menu-toggle,[data-bg=black] header #search-wrapper .search-header .closer,[data-bg=black] header .menu-toggle,body.employees .employee-filter header #search-wrapper .search-header .closer,body.employees .employee-filter header .menu-toggle{color:#fff!important}
 #search-wrapper .search-header body.nav-is-open header .closer,body.nav-is-open header #search-wrapper .search-header .closer,body.nav-is-open header .menu-toggle{color:#000!important}
-body.home{background-color:#5fa362}
-body.home h4{font-family: Raleway,sans-serif;font-size: 30px;
-}
-.text p {margin-top:10px;font-size:20px;}
-body.home h4 a:hover{color:#f2b041;}
+body.home{background-color:#4c5f40}
+body.home h4{font-family: Raleway,sans-serif;font-size: 30px;}
+body.home h4 a:hover{color:#cf6f39;}
 body.home .page-content{padding:0}
 body.home .page-content [data-patterns]{position:absolute;height:100vh;width:40vw;right:-42px;top:-117px;z-index:10;-ms-flex-direction:row;flex-direction:row}
 body.home .page-content [data-patterns] [data-pattern]{min-width:14.2857%!important}
